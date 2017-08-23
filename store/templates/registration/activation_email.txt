@@ -4,7 +4,7 @@ You just signed up for an account at {{ site.name }}, Please click the link belo
 
 http://{{ site.domain }}{% url 'registration_activate' activation_key %}
 
-This link is valid for {{% expiration_days %}}.
+This link is valid for {{ expiration_days }}.
 
 If is wasn't you that signed up for this account, then don't panic! It's safe to ignore this email.
 
